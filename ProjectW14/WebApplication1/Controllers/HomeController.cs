@@ -26,5 +26,13 @@ namespace WebApplication1.Controllers
 
             return View();
         }
+
+        //
+        public ActionResult AddToBasket()
+        {
+            ViewBag.Message = "Your AddToBasket page.";
+
+            return View();
+        }
     }
 }
