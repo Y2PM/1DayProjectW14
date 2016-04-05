@@ -16,6 +16,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1.Tests", "We
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADOClassLibrary", "ADOClassLibrary\ADOClassLibrary.csproj", "{3C31327F-7A68-4040-9AB8-43B554006A0B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFHost", "WCFHost\WCFHost.csproj", "{61AA144E-A22A-4E2E-A9B1-2A77D3326CF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFServiceCL", "WCFServiceCL\WCFServiceCL.csproj", "{77AAFCD5-E778-4739-8632-069395FDFE22}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,6 +42,14 @@ Global
 		{3C31327F-7A68-4040-9AB8-43B554006A0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C31327F-7A68-4040-9AB8-43B554006A0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C31327F-7A68-4040-9AB8-43B554006A0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61AA144E-A22A-4E2E-A9B1-2A77D3326CF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61AA144E-A22A-4E2E-A9B1-2A77D3326CF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61AA144E-A22A-4E2E-A9B1-2A77D3326CF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61AA144E-A22A-4E2E-A9B1-2A77D3326CF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77AAFCD5-E778-4739-8632-069395FDFE22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77AAFCD5-E778-4739-8632-069395FDFE22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77AAFCD5-E778-4739-8632-069395FDFE22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77AAFCD5-E778-4739-8632-069395FDFE22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
