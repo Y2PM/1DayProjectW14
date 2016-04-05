@@ -53,13 +53,9 @@ namespace WebApplication1.Controllers
             }
 
             Basket BasketProduct = new Basket { ItemName = product.name, ItemPrice = product.price };
-
             proxy.addItemtoDBServiceMethod(BasketProduct);
 
-
             return PartialView("PartialView1", product);
-
-
         }
     }
 }
