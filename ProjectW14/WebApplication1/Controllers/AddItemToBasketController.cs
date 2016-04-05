@@ -51,7 +51,15 @@ namespace WebApplication1.Controllers
                     break;
                 }
             }
+
+            Basket BasketProduct = new Basket { ItemName = product.name, ItemPrice = product.price };
+
+            proxy.addItemtoDBServiceMethod(BasketProduct);
+
+
             return PartialView("PartialView1", product);
+
+
         }
     }
 }
