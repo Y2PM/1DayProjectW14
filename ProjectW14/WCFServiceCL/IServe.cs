@@ -6,6 +6,7 @@ using System.ServiceModel;
 using System.Text;
 using System.Threading.Tasks;
 
+//Made [DataContract]'s and [DataMember]'s in ADOClassLibrary
 namespace WCFServiceCL
 {
     [ServiceContract]

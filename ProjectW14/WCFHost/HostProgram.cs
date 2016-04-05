@@ -1,8 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
+using System.ServiceModel;
 using System.Text;
 using System.Threading.Tasks;
+using WCFServiceCL;
 
 namespace WCFHost
 {
@@ -10,7 +13,7 @@ namespace WCFHost
     {
         static void Main(string[] args)
         {
-            /*
+            
             using (ServiceHost host = new ServiceHost(typeof(ServiceMethodClass)))
             {
                 string address = "http://" + Dns.GetHostName() + ":8081/Service";
@@ -20,7 +23,7 @@ namespace WCFHost
                 Console.ReadLine();
                 host.Close();
             }
-            */
+            
         }
     }
 }
