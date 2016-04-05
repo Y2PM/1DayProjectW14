@@ -15,5 +15,7 @@ namespace WCFServiceCL
         [OperationContract]
         void addItemtoDBServiceMethod(Basket anItem);
 
+        [OperationContract]
+        List<Item> GetItemsFromDB();
     }
 }

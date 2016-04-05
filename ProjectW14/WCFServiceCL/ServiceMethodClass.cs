@@ -15,5 +15,11 @@ namespace WCFServiceCL
             DBAccess DBAccessObject = new DBAccess(new Entities());
             DBAccessObject.addItemtoDB(anItem);
         }
+
+        public List<Item> GetItemsFromDB()
+        {
+            DBAccess DBAccessObject = new DBAccess(new Entities());
+            return DBAccessObject.GetItemsFromDB();
+        }
     }
 }

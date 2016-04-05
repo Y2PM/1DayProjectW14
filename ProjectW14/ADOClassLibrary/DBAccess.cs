@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data.SqlClient;//(?)
 
 namespace ADOClassLibrary
 {
@@ -23,6 +24,20 @@ namespace ADOClassLibrary
                 Context.SaveChanges();
             }
                 
+        }
+
+        public List<Item> GetItemsFromDB()//:=Read
+        {
+            List<Item> itemNameList = new List<Item>();
+
+            using (Context)
+            {
+                foreach (var item in Context.Items)
+                {
+                    itemNameList.Add(item);
+                }
+            }
+            return itemNameList;
         }
     }
 }

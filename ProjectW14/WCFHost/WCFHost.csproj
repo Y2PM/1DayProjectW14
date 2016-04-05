@@ -32,6 +32,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.ServiceModel" />
@@ -49,6 +56,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ADOClassLibrary\ADOClassLibrary.csproj">
+      <Project>{3c31327f-7a68-4040-9ab8-43b554006a0b}</Project>
+      <Name>ADOClassLibrary</Name>
+    </ProjectReference>
     <ProjectReference Include="..\WCFServiceCL\WCFServiceCL.csproj">
       <Project>{77aafcd5-e778-4739-8632-069395fdfe22}</Project>
       <Name>WCFServiceCL</Name>
