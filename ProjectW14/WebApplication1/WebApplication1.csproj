@@ -231,8 +231,8 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
-    <Content Include="Views\AddItemToBasket\AddToBasket.cshtml" />
     <Content Include="Views\Shared\PartialView1.cshtml" />
+    <Content Include="Views\AddItemToBasket\AddToBasket.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -246,7 +246,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ADOClassLibrary\ADOClassLibrary.csproj">
-      <Project>{3c31327f-7a68-4040-9ab8-43b554006a0b}</Project>
+      <Project>{e7f26452-e102-411a-8a7b-27838ba75340}</Project>
       <Name>ADOClassLibrary</Name>
     </ProjectReference>
     <ProjectReference Include="..\WCFHost\WCFHost.csproj">

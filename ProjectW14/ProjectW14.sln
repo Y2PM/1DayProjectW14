@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectW14.Project", "ProjectW14.Project\ProjectW14.Project.csproj", "{F8FD3566-3D26-49E8-B557-D0FD680348C2}"
 EndProject
@@ -14,13 +14,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebAppli
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1.Tests", "WebApplication1.Tests\WebApplication1.Tests.csproj", "{0386DC94-5A77-4653-9DEA-8B0978B99D00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADOClassLibrary", "ADOClassLibrary\ADOClassLibrary.csproj", "{3C31327F-7A68-4040-9AB8-43B554006A0B}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFHost", "WCFHost\WCFHost.csproj", "{61AA144E-A22A-4E2E-A9B1-2A77D3326CF1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFServiceCL", "WCFServiceCL\WCFServiceCL.csproj", "{77AAFCD5-E778-4739-8632-069395FDFE22}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADOTests", "ADOTests\ADOTests.csproj", "{BD8C5186-2426-4020-B9C2-D887C31359CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADOClassLibrary", "ADOClassLibrary\ADOClassLibrary.csproj", "{E7F26452-E102-411A-8A7B-27838BA75340}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -40,10 +40,6 @@ Global
 		{0386DC94-5A77-4653-9DEA-8B0978B99D00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0386DC94-5A77-4653-9DEA-8B0978B99D00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0386DC94-5A77-4653-9DEA-8B0978B99D00}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3C31327F-7A68-4040-9AB8-43B554006A0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3C31327F-7A68-4040-9AB8-43B554006A0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3C31327F-7A68-4040-9AB8-43B554006A0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3C31327F-7A68-4040-9AB8-43B554006A0B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{61AA144E-A22A-4E2E-A9B1-2A77D3326CF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{61AA144E-A22A-4E2E-A9B1-2A77D3326CF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61AA144E-A22A-4E2E-A9B1-2A77D3326CF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -56,6 +52,10 @@ Global
 		{BD8C5186-2426-4020-B9C2-D887C31359CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD8C5186-2426-4020-B9C2-D887C31359CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD8C5186-2426-4020-B9C2-D887C31359CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7F26452-E102-411A-8A7B-27838BA75340}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7F26452-E102-411A-8A7B-27838BA75340}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7F26452-E102-411A-8A7B-27838BA75340}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7F26452-E102-411A-8A7B-27838BA75340}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
