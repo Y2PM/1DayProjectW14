@@ -8,7 +8,7 @@ CREATE TABLE [1DayProjectW14DB].[dbo].[Basket] (
     [Id] [int] IDENTITY (1, 1) NOT NULL PRIMARY KEY,
     [ItemName] [varchar] (255) NOT NULL,
     [ItemPrice] DECIMAL NOT NULL
-)
+) 
 
 CREATE TABLE [1DayProjectW14DB].[dbo].[Items] (
     [Id] [int] IDENTITY (1, 1) NOT NULL PRIMARY KEY,
