@@ -1,16 +1,16 @@
-IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[1DayProjectW14DB].[dbo].[Basket]') AND type in (N'U'))
-drop table [1DayProjectW14DB].[dbo].[Basket]
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[ProjectW14].[dbo].[Basket]') AND type in (N'U'))
+drop table [ProjectW14].[dbo].[Basket]
 
-IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[1DayProjectW14DB].[dbo].[Items]') AND type in (N'U'))
-drop table [1DayProjectW14DB].[dbo].[Items]
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[ProjectW14].[dbo].[Items]') AND type in (N'U'))
+drop table [ProjectW14].[dbo].[Items]
 
-CREATE TABLE [1DayProjectW14DB].[dbo].[Basket] (
+CREATE TABLE [ProjectW14].[dbo].[Basket] (
     [Id] [int] IDENTITY (1, 1) NOT NULL PRIMARY KEY,
     [ItemName] [varchar] (255) NOT NULL,
     [ItemPrice] DECIMAL NOT NULL
 ) 
 
-CREATE TABLE [1DayProjectW14DB].[dbo].[Items] (
+CREATE TABLE [ProjectW14].[dbo].[Items] (
     [Id] [int] IDENTITY (1, 1) NOT NULL PRIMARY KEY,
     [ItemName] [varchar] (255) NOT NULL,
     [ItemPrice] DECIMAL NOT NULL

@@ -13,11 +13,11 @@ namespace WebApplication1.Controllers
     public class AddItemToBasketController : Controller
     {
         public static List<Product> productList = new List<Product>();
+        
+        static EndpointAddress endpoint = new EndpointAddress("http://DESKTOP-GOO66JF:8081/Service");
+        IServe proxy = ChannelFactory<IServe>.CreateChannel(new BasicHttpBinding(), endpoint);
 
-        //static EndpointAddress endpoint = new EndpointAddress("http://trnlon11577:8081/Service");
-        //IServe proxy = ChannelFactory<IServe>.CreateChannel(new BasicHttpBinding(), endpoint);
-
-        DBAccess FakeProxy = new DBAccess(new Entities());
+        //DBAccess FakeProxy = new DBAccess(new Entities());
 
         // GET: AddItemToBasket
         public ActionResult AddToBasket(string code)
@@ -28,7 +28,7 @@ namespace WebApplication1.Controllers
             }
 
             //List<Item> itemList_RenamedBrokenService = proxy.GetItemsFromDB();
-            List<Item> itemList = FakeProxy.GetItemsFromDB();
+            List<Item> itemList = proxy.GetItemsFromDB();
 
 
             foreach (Item item in itemList)
@@ -56,7 +56,7 @@ namespace WebApplication1.Controllers
             }
 
             Basket BasketProduct = new Basket { ItemName = product.name, ItemPrice = product.price };
-            FakeProxy.addItemtoDB(BasketProduct);
+            proxy.addItemtoDBServiceMethod(BasketProduct);
 
             return PartialView("PartialView1", product);
         }
